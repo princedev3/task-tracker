@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.component-element{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+ 
+}
+.app-component{
+  width: 400px;
+  height: auto;
+  border:  1px solid slateblue;
+  border-radius: .7rem;
+  padding: 2rem;
+}
+.header-component-top{
+  display: flex;
+  justify-content: space-between;
+ padding-bottom: 2rem;
+}
+.app-component-top h2{
+  font-weight: 600;
+}
+.button{
+ 
+  padding: .5rem;
+  border: none;
+  border-radius: .3rem;
+  color: white;
+  font-size: .9rem;
+  font-weight: 600;
+}
+.task-element-each{
+  background-color: rgba(168, 156, 156,0.3);
+  padding: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.task-element-each h4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-element-each h4 svg{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.task-element-each p{
+  font-size: 14px;
+}
+.reminder{
+  border-left: 5px solid green;
+}
+
+.addtask-element{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .9rem;
+}
+.addtask-element label{
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+}
+.addtask-input{
+  padding: .4rem;
+  outline: none;
+}
+.addtask-reminder{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+}
+.addtask-reminder-input{
+  height: 17px;
+}
+.addtask-btn{
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.4rem;
+  border: none;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  color: white;
+  background-color: green;
+  border-radius: 0.4rem;
+}
